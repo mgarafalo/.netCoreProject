@@ -1,0 +1,15 @@
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/bin/Debug/net6.0/Persistence.deps.json
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/bin/Debug/net6.0/Persistence.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/bin/Debug/net6.0/ref/Persistence.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/bin/Debug/net6.0/Persistence.pdb
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/bin/Debug/net6.0/Domanin.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/bin/Debug/net6.0/Domanin.pdb
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/obj/Debug/net6.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfoInputs.cache
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfo.cs
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/obj/Debug/net6.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/obj/Debug/net6.0/Persistence.csproj.CopyComplete
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/obj/Debug/net6.0/Persistence.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/obj/Debug/net6.0/ref/Persistence.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/obj/Debug/net6.0/Persistence.pdb

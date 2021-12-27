@@ -1,0 +1,12 @@
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/bin/Debug/net6.0/Domanin.deps.json
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/bin/Debug/net6.0/Domanin.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/bin/Debug/net6.0/ref/Domanin.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/bin/Debug/net6.0/Domanin.pdb
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/obj/Debug/net6.0/Domanin.csproj.AssemblyReference.cache
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/obj/Debug/net6.0/Domanin.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/obj/Debug/net6.0/Domanin.AssemblyInfoInputs.cache
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/obj/Debug/net6.0/Domanin.AssemblyInfo.cs
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/obj/Debug/net6.0/Domanin.csproj.CoreCompileInputs.cache
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/obj/Debug/net6.0/Domanin.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/obj/Debug/net6.0/ref/Domanin.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Domanin/obj/Debug/net6.0/Domanin.pdb
