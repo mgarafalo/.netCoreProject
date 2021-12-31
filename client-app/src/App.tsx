@@ -1,29 +1,36 @@
 import React from 'react';
 import './App.css';
-import './layout/styles.css';
+import './styles.css';
 import { Container } from 'semantic-ui-react';
 import NavBar from './layout/NavBar';
 import ActivityDashboard from './features/activities/dashboard/ActivityDashboard';
-
 import { observer } from 'mobx-react-lite';
-import { Route, Routes } from 'react-router-dom';
+import { Route, useLocation } from 'react-router-dom';
 import HomePage from './features/home/HomePage';
 import ActivityForm from './features/activities/form/ActivityForm';
 import ActivityDetails from './features/activities/details/ActivityDetails';
 
 function App() {
 
+  const loacation = useLocation();
+
   return (
     <>
-      <NavBar />
-      <Container style={{marginTop: '7em'}}>
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/activities' element={<ActivityDashboard />} />
-          <Route path='/activities/:id' element={<ActivityDetails />} />
-          <Route path='/createActivity' element={<ActivityForm />} />
-        </Routes>
-      </Container>
+    <Route path='/' exact component={HomePage} />
+    <Route 
+      path={'/(.+)'}
+      render={() => (
+        <>
+          <NavBar />
+          <Container style={{marginTop: '7em'}}>
+              <Route path='/activities' exact component={ActivityDashboard} />
+              <Route path='/activities/:id' component={ActivityDetails} />
+              <Route path={['/createActivity', '/manage/:id']} key={loacation.key} component={ActivityForm} />
+          </Container>
+        </>
+      )}
+    />
+      
     </>
   );
 }

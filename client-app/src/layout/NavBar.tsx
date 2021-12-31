@@ -8,7 +8,7 @@ export default function NavBar() {
         <>
             <Menu inverted fixed='top'>
                 <Container>
-                    <MenuItem as={NavLink} to='/' header>
+                    <MenuItem as={NavLink} to='/' exact header>
                         <img src='/assets/logo.png' alt='logo' style={{marginRight: 15}} />
                         Reactivities
                     </MenuItem>
