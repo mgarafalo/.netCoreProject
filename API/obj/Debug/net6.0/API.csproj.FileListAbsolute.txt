@@ -61,3 +61,6 @@
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/AutoMapper.dll
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/FluentValidation.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "7wTTiSYyFAXMh3GauK5dfOoPTNIAJA9uEHCiIIAK92XQbLEXirlRInjV3mNuYmN+r9dFHEMDGyERqMWY+mCDLg==",
+  "dgSpecHash": "2GV1jHP2jW2+g6peYQxQQ9Qznd1ZM4XTzbV8F2PZPOeefb2zQp477VQaOuy5aTZtcif+7sSprJlMsbBq+etiog==",
   "success": true,
   "projectFilePath": "/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/matthewgarafalo/.nuget/packages/automapper/10.1.0/automapper.10.1.0.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "/Users/matthewgarafalo/.nuget/packages/fluentvalidation/10.3.6/fluentvalidation.10.3.6.nupkg.sha512",
+    "/Users/matthewgarafalo/.nuget/packages/fluentvalidation.aspnetcore/10.3.6/fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+    "/Users/matthewgarafalo/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.3.6/fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
