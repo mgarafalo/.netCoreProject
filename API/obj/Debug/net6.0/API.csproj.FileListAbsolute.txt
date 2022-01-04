@@ -64,3 +64,4 @@
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/FluentValidation.dll
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

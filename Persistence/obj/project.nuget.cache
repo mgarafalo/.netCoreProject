@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lHO9mxvEhxp6eGtKo6dslcxjwOKSCRLvMCiKwyZ2G2WCqrB8qsnqovTPn6+yU0g3I5BQd7lmec8Bd1aprP+GeQ==",
+  "dgSpecHash": "Fw7vmE2TTFcsGerdMg3v8JaugKm9+0D0RyXw7d4w1y1DbAb6t1XarY6vvI07obR+hiRf/U7CpfDYeGksihAs3g==",
   "success": true,
   "projectFilePath": "/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Persistence/Persistence.csproj",
   "expectedPackageFiles": [
+    "/Users/matthewgarafalo/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.1/microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
+    "/Users/matthewgarafalo/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.1/microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
+    "/Users/matthewgarafalo/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/5.0.1/microsoft.aspnetcore.identity.entityframeworkcore.5.0.1.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/microsoft.data.sqlite.core/6.0.1/microsoft.data.sqlite.core.6.0.1.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.1/microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
@@ -17,6 +20,8 @@
     "/Users/matthewgarafalo/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/microsoft.extensions.dependencymodel/6.0.0/microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "/Users/matthewgarafalo/.nuget/packages/microsoft.extensions.identity.core/5.0.1/microsoft.extensions.identity.core.5.0.1.nupkg.sha512",
+    "/Users/matthewgarafalo/.nuget/packages/microsoft.extensions.identity.stores/5.0.1/microsoft.extensions.identity.stores.5.0.1.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/Users/matthewgarafalo/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
