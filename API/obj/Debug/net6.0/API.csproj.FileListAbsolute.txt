@@ -65,3 +65,10 @@
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
