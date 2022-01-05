@@ -9,6 +9,7 @@
       "API/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.1",
           "Microsoft.EntityFrameworkCore.Design": "6.0.1",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -563,6 +564,14 @@
           "Domanin.dll": {}
         }
       },
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
+        }
+      },
       "Persistence/1.0.0": {
         "dependencies": {
           "Domanin": "1.0.0",
@@ -992,6 +1001,11 @@
       "sha512": ""
     },
     "Domanin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -833,6 +833,19 @@
           "bin/placeholder/Domanin.dll": {}
         }
       },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
+      },
       "Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2167,6 +2180,11 @@
       "path": "../Domanin/Domanin.csproj",
       "msbuildProject": "../Domanin/Domanin.csproj"
     },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
     "Persistence/1.0.0": {
       "type": "project",
       "path": "../Persistence/Persistence.csproj",
@@ -2176,6 +2194,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Application >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.1",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -2208,6 +2227,9 @@
           "projectReferences": {
             "/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Application/Application.csproj": {
               "projectPath": "/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Application/Application.csproj"
+            },
+            "/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/Infrastructure/Infrastructure.csproj"
             }
           }
         }

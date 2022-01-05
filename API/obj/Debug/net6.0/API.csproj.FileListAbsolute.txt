@@ -72,3 +72,5 @@
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Infrastructure.dll
+/Users/matthewgarafalo/Documents/GitHub/.netCoreProject/API/bin/Debug/net6.0/Infrastructure.pdb
