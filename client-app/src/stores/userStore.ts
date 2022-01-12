@@ -15,11 +15,18 @@ export default class UserStore {
         return !!this.user
     }
 
+    setDisplayName(displayName: string) {
+        if (this.user) this.user!.displayName = displayName;
+    }
+
     login = async (creds: UserFormValues) => {
         try {
             const user = await agent.Account.login(creds);
             store.commonStore.setToken(user.token);
             runInAction(() => this.user = user);
+            if (!this.user!.displayName) {
+                this.user!.displayName = this.user!.username
+            }
             history.push('/activities');
             store.modalStore.closeModal();
         } catch (err) {
@@ -48,10 +55,15 @@ export default class UserStore {
             const user = await agent.Account.register(creds);
             store.commonStore.setToken(user.token);
             runInAction(() => this.user = user);
+            this.setDisplayName(this.user!.username)
             history.push('/activities');
             store.modalStore.closeModal();
         } catch (err) {
             throw err;
         }
+    }
+
+    setImage = (image: string) => {
+        if (this.user) this.user.image = image;
     }
 }
