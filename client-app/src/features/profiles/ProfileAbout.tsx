@@ -32,8 +32,6 @@ export default function ProfileAbout({profile}: Props) {
         setEditing(false)
     }
 
-    console.log(loading)
-
     return (
         <Tab.Pane>
             <Grid>
