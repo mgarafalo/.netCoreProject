@@ -3,7 +3,8 @@ import { request } from "http";
 import { toast } from "react-toastify";
 import { history } from "..";
 import { Activity, ActivityFormValues } from "../models/activity";
-import { Photo, Profile } from "../models/profile";
+import { PaginatedResults } from "../models/pagination";
+import { Photo, Profile, UserActivity } from "../models/profile";
 import { User, UserFormValues } from "../models/user";
 import { store } from "../stores/store";
 
@@ -23,6 +24,11 @@ axios.interceptors.request.use(config => {
 
 axios.interceptors.response.use(async res => {
         await sleep(1000);
+        const pagination = res.headers['pagination']
+        if (pagination) {
+            res.data = new PaginatedResults(res.data, JSON.parse(pagination))
+            return res as AxiosResponse<PaginatedResults<any>>
+        }
         return res;
 }, (error: AxiosError) => {
     const {data, status, config} = error.response!;
@@ -68,7 +74,8 @@ const requests = {
 }
 
 const Activities = {
-    list: () => requests.get<Activity[]>('/activities'),
+    list: (params: URLSearchParams) => axios.get<PaginatedResults<Activity[]>>('/activities', {params})
+        .then(responseBody),
     details: (id: string) => requests.get<Activity>(`/activities/${id}`),
     create: (activity: ActivityFormValues) => requests.post<void>('/activities', activity),
     update: (activity: ActivityFormValues) => requests.put<void>(`/activities/${activity.id}`, activity),
@@ -96,7 +103,9 @@ const Profiles = {
     updateProfile: (profile: Partial<Profile>) => requests.put('/profiles', profile),
     updateFollowing: (username: string) => requests.post(`/follow/${username}`, {}),
     listFollowings: (username: string, prediacte: string) => 
-        requests.get<Profile[]>(`/follow/${username}?predicate=${prediacte}`)
+        requests.get<Profile[]>(`/follow/${username}?predicate=${prediacte}`),
+    listAcitivites: (username: string, predicate: string) => 
+        requests.get<UserActivity[]>(`/${username}/activities?predicate=${predicate}`)
 }
 
 const agent = {

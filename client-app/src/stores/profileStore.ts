@@ -1,9 +1,10 @@
 import { makeAutoObservable, reaction, runInAction } from "mobx";
 import agent from "../api/agent";
 import { history } from "..";
-import { Photo, Profile } from "../models/profile";
+import { Photo, Profile, UserActivity } from "../models/profile";
 import { store } from "./store";
 import { profileEnd } from "console";
+import { Activity } from "../models/activity";
 
 export default class ProfileStore {
     profile: Profile | null = null;
@@ -13,6 +14,8 @@ export default class ProfileStore {
     followings: Profile[] = []
     loadingFollowings = false
     activeTab = 0
+    userActivities: UserActivity[] = []
+    loadingActivities = false
 
     constructor() {
         makeAutoObservable(this);
@@ -53,6 +56,20 @@ export default class ProfileStore {
         } catch (err) {
             console.log(err);
             runInAction(() => this.loadingProfile = false)
+        }
+    }
+
+    loadUserActivities = async (username: string, predicate?: string) => {
+        this.loadingActivities = true
+        try {
+            const userActivities = await agent.Profiles.listAcitivites(username, predicate!)
+            runInAction(() => {
+                this.userActivities = userActivities
+                this.loadingActivities = false
+            })
+        } catch (error) {
+            console.log(error)
+            runInAction(() => this.loadingActivities = false)
         }
     }
 
